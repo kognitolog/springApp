@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Configuration;
 public class SpringConfig {
     @Bean
     public TestBean getTestBean() {
-        return new TestBean("hello!");
+        return new TestBean("The bean");
     }
 }
